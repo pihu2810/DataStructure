@@ -5,6 +5,7 @@ public class LinkedList
  Node  head;
  Node tail;
   int size;
+ 
   public LinkedList() {
 	  this.size=0;
 	  this.head=null;
