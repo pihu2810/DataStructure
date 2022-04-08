@@ -7,12 +7,12 @@ public class Stack
  linkedList=new LinkedList();
  }
  public void push(int data) {
-	 linkedList.insertAtFirst(data);
+	 linkedList.add(data);
  }
  public void printStack() {
 	 linkedList.printList();
  }
- public Node peak() {
+ public Node peek() {
 	return linkedList.head;
  }
  public void pop()
