@@ -72,6 +72,16 @@ public class LinkedList
 			 size++;
 		 }
 	 }
+	public void add(int data) {
+		Node<K> node=new Node<>();
+		if(head==null) {
+			System.out.println("Stack is overflow");
+		}
+		node.setData(key);
+		node.setNext(head);
+		head=node;
+		size++;
+		
  public void deleteFirst() {
 	 if(head==null) {
 		 System.out.println("Empty");
